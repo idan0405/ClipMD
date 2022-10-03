@@ -1,5 +1,5 @@
 from transformers import CLIPProcessor,CLIPModel,CLIPConfig
-from utils import *
+from functions import *
 import glob
 torch.cuda.empty_cache()
 
